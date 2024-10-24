@@ -45,3 +45,8 @@ nav ul li a{
   text-decoration: none;
   color: white;
 }
+
+nav a.active{
+  color: goldenrod;
+  transition: ease 0.2s;
+}

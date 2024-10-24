@@ -1,15 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <nav>
         <ul>
             <li>
-                <Link to="/">Upcoming Events</Link>
+                <NavLink to="/">Upcoming Events</NavLink>
             </li>
             <li>
-                <Link to="event">Submit your event</Link>
+                <NavLink to="event">Submit your event</NavLink>
             </li>
         </ul>
     </nav>
